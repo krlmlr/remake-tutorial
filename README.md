@@ -11,6 +11,7 @@ Prerequisites
 ``` r
 install.packages("remotes") # if not yet installed
 remotes::install_github(c("richfitz/remake", "krlmlr/cooking"))
+install.packages("rmarkdown") # optionally, for the "Reporting" exercise
 ```
 
 Test
@@ -52,4 +53,5 @@ Contents
 4.  [Where to buy?](04-supermarket)
 5.  [Working with `remake` projects](05-editing)
 6.  [Marinating the meat](06-custom)
-7.  [A tofu ragout](07-tofu)
+7.  [Reporting](07-knitr)
+8.  [A tofu ragout](08-tofu)
