@@ -4,13 +4,25 @@
     - RStudio users, open the `*.Rproj` file in this directory
 1. Build the project with `remake::make()`
 1. Observe the output
+1. Fetch the ragout:
+    ```r
+    remake::fetch("ragout")
+    ```
 1. Build the project with `remake::make()` again. How has the output changed?
-1. Modify `raw_meat.csv` in this directory (contents don't matter)
+1. Fetch the ragout again. Has it changed?
+1. Modify `raw_meat.txt` in this directory
+    - Change the contents to `<adjective meat>`, e.g., `marinated meat`
+1. Build the project again. How has the output changed?
+    - If nothing changes, check that you have the latest version of the `cooking` package installed
+1. Fetch the ragout again. Has it changed?
+1. Modify `raw_meat.txt` in this directory again
+    - Add a second line with arbitrary contents, e.g., `from supermarket`
 1. Build the project again. How has the output changed?
     - Why is the `fried_meat` target not rebuilt?
-1. Build the project again. What has changed?
+        - Hint: Run `cooking::chop("raw_meat.txt")` in your R session
 1. Locate the hidden `.remake` directory in this directory
     - Don't look inside, you have been warned
         - No harm will be done to your computer if you look anyway
 1. Delete it (perhaps in your R session with `unlink(".remake", recursive = TRUE)`
 1. Build the project again. Why are all targets rebuilt?
+1. Fetch the ragout again. Has it changed?
