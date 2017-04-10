@@ -2,7 +2,14 @@
 
 1. Start an R session in this directory (`03-vegetables`)
     - RStudio users, open the `*.Rproj` file in this directory
-1. Build the project with `remake::make()`
+1. Build the project:
+    ```r
+    remake::make()
+    ```
+1. Fetch the ragout:
+    ```r
+    remake::fetch("ragout")
+    ```
 1. Add rules to peel carrots, and to peel and cook potatoes:
     
     ![new rules](vegetables.png)

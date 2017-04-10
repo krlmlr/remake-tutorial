@@ -2,7 +2,10 @@
 
 1. Start an R session in this directory (`01-basics`)
     - RStudio users, open the `*.Rproj` file in this directory
-1. Build the project with `remake::make()`
+1. Build the project:
+    ```r
+    remake::make()
+    ```
 1. Observe the output
 1. Fetch the ragout:
     ```r
