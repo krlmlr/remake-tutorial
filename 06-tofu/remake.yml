@@ -1,6 +1,9 @@
 packages:
 - cooking
 
+sources:
+- R/
+
 targets:
   all:
     depends: ragout
@@ -12,7 +15,7 @@ targets:
     command: fry(chopped_meat, with = I(c("oil", "pepper")))
 
   chopped_meat:
-    command: chop(raw_meat)
+    command: chop(marinated_meat)
 
   peeled_carrots:
     command: peel(raw_carrots)
@@ -25,6 +28,9 @@ targets:
 
   raw_meat:
     command: buy(I("meat"), from = I("the butcher's"))
+
+  marinated_meat:
+    command: marinate(raw_meat)
 
   raw_carrots:
     command: buy(I("carrots"))
