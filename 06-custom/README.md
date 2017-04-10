@@ -14,7 +14,7 @@
    at the top or bottom of your `remake.yml` file:
     ```
     sources:
-    - R/*
+    - R/
     
     ```
 1. Use marinated meat instead of raw meat for frying, using the default setting for the `time` argument.
