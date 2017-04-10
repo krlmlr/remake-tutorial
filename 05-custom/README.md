@@ -6,18 +6,18 @@
     ```r
     remake::make()
     ```
-1. Create a new file with `.R` extension (name doesn't matter)
-1. Save it to the `R` subdirectory
-1. Implement the `marinate()` function:
+1. Create a new file named `steps.R` in the `R` subdirectory
+1. Implement the `marinate()` function in this file:
     ```r
     marinate <- function(what) {
-      requireNamespace("cooking")
       Sys.sleep(60) # needs some time
       structure("marinated meat", class = "food", input = list(what))
     }
     ```
 1. Test it in your local R session:
     ```r
+    requireNamespace("cooking")
+    source("R/steps.R")
     marinate(I("raw meat"))
     ```
 1. Let `remake` know the location of your source files by adding the following
