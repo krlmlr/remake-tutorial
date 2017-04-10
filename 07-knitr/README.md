@@ -74,5 +74,14 @@
       final.html:
         command: knit_with_deps(target_name, "final.Rmd", ragout, peeled_carrots, cooked_potatoes, fried_meat)
     ```
+1. Make sure the `final.html` target is part of the main target!
+    ```
+    targets:
+      all:
+        depends:
+        - ragout
+        - final.html
+    ```
+
 1. Build the project.
 1. View the resulting `final.html` in your browser, again.
