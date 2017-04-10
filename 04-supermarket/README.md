@@ -18,7 +18,9 @@
     - Use the call `buy(I("carrots"))` to buy carrots
     - Define the `raw_potatoes` target to be the result of buying potatoes from the supermarket
     - Consider buying the meat at the butcher's instead
+
         - `buy(I("meat"), I("the butcher's"))`
+
     - Use the new targets instead of the input `.txt` filenames in the existing calls to `chop()` and `peel()`
 1. Build the project. Why is the meat not marinated anymore?
     - Hint: Fetch the intermediate target `raw_meat`
