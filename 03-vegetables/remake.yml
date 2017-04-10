@@ -9,7 +9,7 @@ targets:
     command: combine(fried_meat, with = I("vegetables"))
 
   fried_meat:
-    command: fry(chopped_meat, with = I("oil"))
+    command: fry(chopped_meat, with = I(c("oil", "pepper")))
 
   chopped_meat:
     command: chop("raw_meat.csv")
