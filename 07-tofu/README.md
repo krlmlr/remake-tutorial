@@ -10,7 +10,7 @@
     ```r
     remake::fetch("ragout")
     ```
-1. Prepare a tofu ragout:
+1. Prepare a tofu ragout *in addition to* the meat ragout:
 
     ![new rules](detailed-parallel.png)
     
