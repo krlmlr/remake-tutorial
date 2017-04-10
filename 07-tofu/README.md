@@ -30,3 +30,5 @@
         - ragout
         - tofu_ragout
     ```
+
+1. Build the project, fetch the tofu ragout. The meat ragout is not recreated as part of this process (surprise!).
