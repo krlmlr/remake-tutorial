@@ -3,15 +3,15 @@
 remake tutorial
 ===============
 
-1.  [The basics](01-basics)
-2.  [Adding spice](02-spice)
-3.  [How to prepare vegetables?](03-vegetables)
-4.  [Where to buy?](04-supermarket)
-5.  [Working with `remake` projects](05-editing)
-6.  [Marinating the meat](06-custom)
-7.  [Reporting](07-knitr)
-8.  [A tofu ragout](08-tofu)
-9.  [Further steps](09-freeride)
+1.  [The basics](01-basics#readme)
+2.  [Adding spice](02-spice#readme)
+3.  [How to prepare vegetables?](03-vegetables#readme)
+4.  [Where to buy?](04-supermarket#readme)
+5.  [Working with `remake` projects](05-editing#readme)
+6.  [Marinating the meat](06-custom#readme)
+7.  [Reporting](07-knitr#readme)
+8.  [A tofu ragout](08-tofu#readme)
+9.  [Further steps](09-freeride#readme)
 
 Prerequisites
 -------------
