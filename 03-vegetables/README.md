@@ -14,7 +14,7 @@
     
     ![new rules](vegetables.png)
     
-    - Use the call `peel("raw_carrots.csv")` to peel carrots
+    - Use the call `peel("raw_carrots.txt")` to peel carrots
 
     - Use the call `cook(peeled_potatoes)` to cook the peeled potatoes
 
