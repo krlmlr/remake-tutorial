@@ -17,6 +17,7 @@
     - Buy the raw tofu from the local market
     - Don't marinate it (because we don't know how to marinate tofu yet)
         - You could also implement `marinate_tofu()`
+
     - Reuse the vegetables from the meat ragout for the tofu ragout
     - Add spice to your taste
     - Hint: Some copy-pasting may be required.
