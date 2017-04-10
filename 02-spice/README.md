@@ -1,6 +1,7 @@
 # Adding spice
 
 1. Start an R session in this directory (`02-spice`)
+1. Run `remake::make()` 
 1. Grab the ragout:
     ```r
     remake::fetch("ragout")
