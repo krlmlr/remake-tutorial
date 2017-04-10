@@ -9,5 +9,7 @@
     - Why is the `fried_meat` target not rebuilt?
 1. Run `remake::make()` again. What has changed?
 1. Locate the hidden `.remake` directory in this directory
+    - Don't look inside, you have been warned
+        - No harm will be done to your computer if you look anyway
 1. Delete it (perhaps in your R session with `unlink(".remake", recursive = TRUE)`
 1. Run `remake::make()` again. Why are all targets rebuilt?
