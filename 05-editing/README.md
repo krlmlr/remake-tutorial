@@ -35,4 +35,6 @@
     source("R/steps.R")
     marinate(I("raw meat"))
     ```
-1. Marinate the `raw_meat`.
+
+    - Impatient RStudio users can abort the marination with "Esc"
+1. Marinate the `raw_meat` in your local R session.
