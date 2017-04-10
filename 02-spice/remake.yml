@@ -1,0 +1,15 @@
+packages:
+- cooking
+
+targets:
+  all:
+    depends: ragout
+
+  ragout:
+    command: combine(fried_meat, with = I("vegetables"))
+
+  fried_meat:
+    command: fry(chopped_meat, with = I("oil"))
+
+  chopped_meat:
+    command: chop("raw_meat.csv")
