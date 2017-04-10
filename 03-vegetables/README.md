@@ -16,6 +16,6 @@
     
     ![new rules](from-raw.png)
     
-    - Call `combine(fried_meat, peeled_carrots, cooked_potatoes)` to peel carrots
+    - Call `combine(fried_meat, peeled_carrots, cooked_potatoes)` for the ragout
 
 1. Build the project. Look at the final ragout with `remake::fetch("ragout")`
