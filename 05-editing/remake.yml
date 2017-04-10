@@ -1,0 +1,33 @@
+packages:
+- cooking
+
+targets:
+  all:
+    depends: ragout
+
+  ragout:
+    command: combine(fried_meat, peeled_carrots, cooked_potatoes)
+
+  fried_meat:
+    command: fry(chopped_meat, with = I(c("oil", "pepper")))
+
+  chopped_meat:
+    command: chop(raw_meat)
+
+  peeled_carrots:
+    command: peel(raw_carrots)
+
+  peeled_potatoes:
+    command: peel(raw_potatoes)
+
+  cooked_potatoes:
+    command: cook(peeled_potatoes)
+
+  raw_meat:
+    command: buy(I("meat"), from = I("the butcher's"))
+
+  raw_carrots:
+    command: buy(I("carrots"))
+
+  raw_potatoes:
+    command: buy(I("potatoes"))
