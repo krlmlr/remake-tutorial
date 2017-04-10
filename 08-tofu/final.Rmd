@@ -1,0 +1,35 @@
+---
+title: "Final cooking report"
+author: "<Your name>"
+output: rmarkdown::html_document
+---
+
+```{r init, echo = FALSE, message = FALSE}
+if (!exists("ragout")) remake::create_bindings()
+```
+
+Look at the ragout I made today:
+
+```{r}
+ragout
+```
+
+I combined fried meat and vegetables:
+
+```{r}
+fried_meat
+cooked_potatoes
+peeled_carrots
+```
+
+Some of the components were more difficult to prepare than others:
+
+```{r}
+plot(
+  factor(c("Fried meat", "Cooked potatoes", "Peeled carrots")),
+  sapply(
+    list(fried_meat, cooked_potatoes, peeled_carrots),
+    function(x) length(format(x))
+  )
+)
+```

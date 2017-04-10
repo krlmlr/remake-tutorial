@@ -6,7 +6,9 @@ sources:
 
 targets:
   all:
-    depends: ragout
+    depends:
+    - ragout
+    - final.html
 
   ragout:
     command: combine(fried_meat, peeled_carrots, cooked_potatoes)
@@ -37,3 +39,6 @@ targets:
 
   raw_potatoes:
     command: buy(I("potatoes"))
+
+  final.html:
+    command: knit_with_deps(target_name, "final.Rmd", ragout, peeled_carrots, cooked_potatoes, fried_meat)

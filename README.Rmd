@@ -23,6 +23,7 @@ Please see the README files in the individual subdirectories.
 ```r
 install.packages("remotes") # if not yet installed
 remotes::install_github(c("richfitz/remake", "krlmlr/cooking"))
+install.packages("rmarkdown") # optionally, for the "Reporting" exercise
 ```
 
 ## Test

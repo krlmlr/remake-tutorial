@@ -29,6 +29,7 @@
         depends:
         - ragout
         - tofu_ragout
+        - final.html
     ```
 
 1. Build the project, fetch the tofu ragout. The meat ragout is not recreated as part of this process (surprise!).
