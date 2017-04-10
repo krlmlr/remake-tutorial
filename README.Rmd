@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# remake tutorial
+# remake tutorial https://goo.gl/fnUyVk
 
 1. [The basics](01-basics#readme)
 1. [Adding spice](02-spice#readme)

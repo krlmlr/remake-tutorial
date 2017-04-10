@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-remake tutorial
-===============
+remake tutorial <https://goo.gl/fnUyVk>
+=======================================
 
 1.  [The basics](01-basics#readme)
 2.  [Adding spice](02-spice#readme)
