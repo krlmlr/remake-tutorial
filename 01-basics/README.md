@@ -16,6 +16,10 @@
 1. Locate the hidden `.remake` directory in this directory
     - Don't look inside, you have been warned
         - No harm will be done to your computer if you look anyway
-1. Delete it (perhaps in your R session with `unlink(".remake", recursive = TRUE)`
+1. Delete it entirely:
+    ```r
+    unlink(".remake", recursive = TRUE)
+    ```
+
 1. Build the project again. Why are all targets rebuilt?
 1. Fetch the ragout again. Has it changed?
