@@ -1,0 +1,24 @@
+packages:
+- cooking
+
+targets:
+  all:
+    depends: ragout
+
+  ragout:
+    command: combine(fried_meat, peeled_carrots, cooked_potatoes)
+
+  fried_meat:
+    command: fry(chopped_meat, with = I(c("oil", "pepper")))
+
+  chopped_meat:
+    command: chop("raw_meat.txt")
+
+  peeled_carrots:
+    command: peel("raw_carrots.txt")
+
+  peeled_potatoes:
+    command: peel("raw_potatoes.txt")
+
+  cooked_potatoes:
+    command: cook(peeled_potatoes)
