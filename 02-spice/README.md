@@ -19,7 +19,9 @@
     - Add a second line with arbitrary contents, e.g., `from supermarket`
 1. Build the project again. How has the output changed?
     - Why is the `fried_meat` target not rebuilt?
+
         - Hint: Run `cooking::chop("raw_meat.txt")` in your R session
+
 1. Edit `remake.yml` to spice up the frying rule with any spice of your choice, like this:
     ```
       fried_meat:
