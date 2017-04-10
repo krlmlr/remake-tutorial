@@ -22,3 +22,5 @@
 
 1. Build the project, wait for the marination to complete.
 1. Build the project again. Why is this so much faster now?
+1. Edit `steps.R` to set a default marination time of 5 seconds.
+1. Build the project again. How does `remake` know what to do?
