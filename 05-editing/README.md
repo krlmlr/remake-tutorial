@@ -1,4 +1,4 @@
-# Working with remake projects
+# Working with `remake` projects
 
 1. Start an R session in this directory (`06-tofu`)
     - RStudio users, open the `*.Rproj` file in this directory
