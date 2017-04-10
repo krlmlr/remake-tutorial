@@ -2,6 +2,7 @@
 
 1. Start an R session in this directory (`06-tofu`)
     - RStudio users, open the `*.Rproj` file in this directory
+
 1. Build the project:
     ```r
     remake::make()
