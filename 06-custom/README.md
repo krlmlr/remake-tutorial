@@ -19,5 +19,6 @@
     ```
 1. Use marinated meat instead of raw meat for frying, using the default setting for the `time` argument.
     - Hint: You need to add a new target and change an existing rule.
+
 1. Build the project, wait for the marination to complete.
 1. Build the project again. Why is this so much faster now?
