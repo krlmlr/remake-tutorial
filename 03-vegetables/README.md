@@ -15,7 +15,9 @@
     ![new rules](vegetables.png)
     
     - Use the call `peel("raw_carrots.csv")` to peel carrots
+
     - Use the call `cook(peeled_potatoes)` to cook the peeled potatoes
+
     - Consult `?cooking::cooking` for further documentation
 
 1. Build the project. Why are the vegetables not prepared?
