@@ -10,28 +10,21 @@
     ```r
     remake::fetch("ragout")
     ```
-1. Create a new file named `steps.R` in the `R` subdirectory
-1. Implement the `marinate()` function in this file:
-    ```r
-    marinate <- function(what) {
-      message("Marinating, please wait...")
-      Sys.sleep(60) # needs some time
-      structure("marinated meat", class = "food", input = list(what))
-    }
-    ```
-1. Test it in your local R session:
-    ```r
-    requireNamespace("cooking")
-    source("R/steps.R")
-    marinate(I("raw meat"))
-    ```
-    - Impatient RStudio users can abort by pressing "Esc"
-1. Let `remake` know the location of your source files by adding the following
-   at the top or bottom of your `remake.yml` file:
-    ```
-    sources:
-    - R/*
+1. Prepare a tofu ragout:
+
+    ![new rules](detailed-parallel.png)
     
+    - Buy the raw tofu from the local market
+    - Don't marinate it (because we don't know how to marinate tofu yet)
+        - You could also implement `marinate_tofu()`
+    - Reuse the vegetables from the meat ragout for the tofu ragout
+    - Add spice to your taste
+    - Hint: Some copy-pasting may be required.
+1. Make sure the `tofu_ragout` target is part of the main target!
     ```
-1. Use marinated meat instead of raw meat for frying.
-    - Hint: You need to define a new target and change an existing rule
+    targets:
+      all:
+        depends:
+        - ragout
+        - tofu_ragout
+    ```
