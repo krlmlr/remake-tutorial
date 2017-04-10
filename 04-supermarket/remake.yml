@@ -12,13 +12,13 @@ targets:
     command: fry(chopped_meat, with = I(c("oil", "pepper")))
 
   chopped_meat:
-    command: chop("raw_meat.csv")
+    command: chop("raw_meat.txt")
 
   peeled_carrots:
-    command: peel("raw_carrots.csv")
+    command: peel("raw_carrots.txt")
 
   peeled_potatoes:
-    command: peel("raw_potatoes.csv")
+    command: peel("raw_potatoes.txt")
 
   cooked_potatoes:
     command: cook(peeled_potatoes)

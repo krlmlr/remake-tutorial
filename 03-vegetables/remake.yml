@@ -12,4 +12,4 @@ targets:
     command: fry(chopped_meat, with = I(c("oil", "pepper")))
 
   chopped_meat:
-    command: chop("raw_meat.csv")
+    command: chop("raw_meat.txt")
