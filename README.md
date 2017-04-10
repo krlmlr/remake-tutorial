@@ -55,3 +55,4 @@ Contents
 6.  [Marinating the meat](06-custom)
 7.  [Reporting](07-knitr)
 8.  [A tofu ragout](08-tofu)
+9.  [Further steps](09-freeride)
