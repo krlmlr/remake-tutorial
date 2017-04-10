@@ -1,24 +1,29 @@
-# Where to buy?
+# Marinating the meat
 
-1. Start an R session in this directory (`04-supermarket`)
+1. Start an R session in this directory (`05-custom`)
     - RStudio users, open the `*.Rproj` file in this directory
 1. Build the project:
     ```r
     remake::make()
     ```
-1. Fetch the ragout:
+1. Create a new file with `.R` extension (name doesn't matter)
+1. Save it to the `R` subdirectory
+1. Implement the `marinate()` function:
     ```r
-    remake::fetch("ragout")
+    marinate <- function(what) {
+      requireNamespace("cooking")
+      structure("marinated meat", class = "food", input = list(what))
+    }
     ```
-1. Add rules to buy the raw ingredients from the supermarket,
-  instead of reading them from a file:
+1. Test it in your local R session:
+    ```r
+    marinate(I("raw meat"))
+    ```
+1. Let `remake` know the location of your source files by adding the following
+   at the top or bottom of your `remake.yml` file:
+    ```
+    sources:
+    - R/*
     
-    ![new rules](full.png)
-    
-    - Use the call `buy(I("carrots"))` to buy carrots
-    - Define the `raw_potatoes` target to be the result of buying potatoes from the supermarket
-    - Consider buying the meat at the butcher's instead
-        - `buy(I("meat"), I("the butcher's"))`
-    - Use the new targets instead of the input `.txt` filenames in the existing calls to `chop()` and `peel()`
-1. Build the project. Why is the meat not marinated anymore?
-    - Hint: Fetch the intermediate target `raw_meat`
+    ```
+1. Use marinated meat instead of raw meat for frying.
