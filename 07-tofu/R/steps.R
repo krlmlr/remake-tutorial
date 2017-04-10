@@ -1,5 +1,5 @@
-marinate <- function(what) {
-  message("Marinating, please wait...")
-  Sys.sleep(60) # needs some time
+marinate <- function(what, time = 60) {
+  message("Marinating for ", time, " seconds, please wait...")
+  Sys.sleep(time) # needs some time
   structure("marinated meat", class = "food", input = list(what))
 }

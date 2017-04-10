@@ -24,8 +24,9 @@
 1. Create a new file named `steps.R` in the `R` subdirectory
 1. Implement the `marinate()` function in this file:
     ```r
-    marinate <- function(what) {
-      Sys.sleep(60) # needs some time
+    marinate <- function(what, time = 60) {
+      message("Marinating for ", time, " seconds, please wait...")
+      Sys.sleep(time) # needs some time
       structure("marinated meat", class = "food", input = list(what))
     }
     ```
@@ -33,8 +34,6 @@
     ```r
     requireNamespace("cooking")
     source("R/steps.R")
-    marinate(I("raw meat"))
+    marinate(I("raw meat"), 5)
     ```
-
-    - Impatient RStudio users can abort the marination with "Esc"
 1. Marinate the `raw_meat` in your local R session.
