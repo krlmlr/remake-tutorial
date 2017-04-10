@@ -34,4 +34,4 @@
     source("R/steps.R")
     marinate(I("raw meat"))
     ```
-1. Marinate the raw meat.
+1. Marinate the `raw_meat`.
