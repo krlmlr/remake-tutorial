@@ -6,10 +6,6 @@
     ```r
     remake::make()
     ```
-1. Fetch the ragout:
-    ```r
-    remake::fetch("ragout")
-    ```
 1. Create a new file named `steps.R` in the `R` subdirectory
 1. Implement the `marinate()` function in this file:
     ```r
@@ -32,4 +28,3 @@
     
     ```
 1. Use marinated meat instead of raw meat for frying.
-    - Hint: You need to add a new target and change an existing rule.
