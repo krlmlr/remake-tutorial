@@ -1,6 +1,6 @@
 # Further steps
 
-- Use `remake` for your own data analysis projects, or with an artificial but "real" data project.
+- Use `remake` for your own data analysis projects, or with an artificial but "real" data project
 
 - Check out [`parallelRemake`](https://github.com/wlandau/parallelRemake) by Will Landau
     - A tool that converts `remake.yml` to a `Makefile` proper
