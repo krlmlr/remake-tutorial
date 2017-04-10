@@ -20,6 +20,7 @@
     - Reuse the vegetables from the meat ragout for the tofu ragout
     - Add spice to your taste
     - Hint: Some copy-pasting may be required.
+
 1. Make sure the `tofu_ragout` target is part of the main target!
     ```
     targets:
