@@ -1,6 +1,6 @@
 # Marinating the meat
 
-1. Start an R session in this directory (`05-custom`)
+1. Start an R session in this directory (`06-custom`)
     - RStudio users, open the `*.Rproj` file in this directory
 1. Build the project:
     ```r

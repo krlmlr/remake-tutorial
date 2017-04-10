@@ -1,6 +1,6 @@
 # A tofu ragout
 
-1. Start an R session in this directory (`06-tofu`)
+1. Start an R session in this directory (`08-tofu`)
     - RStudio users, open the `*.Rproj` file in this directory
 1. Build the project:
     ```r
